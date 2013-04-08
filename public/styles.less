@@ -4,16 +4,28 @@
     }
 }
 
+@progressColor: #3ca5ec;
+
+.roundedCorner(@rad) {
+    -webkit-border-radius: @rad;
+    -moz-border-radius: @rad;
+    border-radius: @rad;
+}
+
 .progressFull {
     height: 70px;
-    border: 1px solid #ff00dc;
+    border-width: 1px;
+    border-style: solid;
+    border-color: @progressColor;
+    .roundedCorner(4px);
 }
 
 .progressOpt {
     position: relative;
     float: left;
-    background-color: #ff00dc;
+    background-color: @progressColor;
     height: 70px;
+    .roundedCorner(4px); 
 }
 
 #results {
