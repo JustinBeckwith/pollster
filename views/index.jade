@@ -1,0 +1,14 @@
+extends layout
+
+block content
+    h1=question.text
+
+    form(action="/", method="post")
+        ul#options
+            each opt in question.options
+                li
+                    input(type='radio', name="vote", value=opt.name, id=opt.name)
+                    label(for=opt.name)=opt.text
+        button(type="submit", class='btn btn-primary') vote
+        &nbsp;
+        a(href='/results', class='btn') results

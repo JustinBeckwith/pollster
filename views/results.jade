@@ -1,0 +1,19 @@
+extends layout
+
+block content
+   
+    h1= question.text
+    h3 #{question.totalVotes} total votes
+
+    ul#results
+        each opt in question.options
+            li(id=opt.name)
+                .optionText(id='ot#{opt.name}')
+                    |#{opt.text} (#{opt.count}/#{question.totalVotes})
+                .progressFull
+                    .progressOpt(id='prog#{opt.name}', style="width:#{(opt.count/question.totalVotes)*100}%") 
+                        |&nbsp;
+
+block scripts
+    script(src='/socket.io/socket.io.js')
+    script(src='/javascripts/results.js')

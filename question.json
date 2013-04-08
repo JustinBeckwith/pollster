@@ -1,0 +1,1 @@
+{"text":"What's your favorite web development stack?","options":[{"type":"radio","name":"opt1","text":"ASP.NET","count":0},{"type":"radio","name":"opt2","text":"node.js","count":0},{"type":"radio","name":"opt3","text":"PHP","count":0}],"totalVotes":0}

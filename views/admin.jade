@@ -1,0 +1,15 @@
+extends layout
+
+block content
+    form(action="/admin", method="post")
+        textarea(name="question")
+        br
+        input(name="opt1")
+        br
+        input(name="opt2")
+        br
+        input(name="opt3")
+        br
+        button(type="submit") Change
+
+
