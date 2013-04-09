@@ -7,13 +7,19 @@
   height: 70px;
   border-width: 1px;
   border-style: solid;
-  border-color: #ff00dc;
+  border-color: #3ca5ec;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
 }
 .progressOpt {
   position: relative;
   float: left;
-  background-color: #ff00dc;
+  background-color: #3ca5ec;
   height: 70px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
 }
 #results li {
   list-style-type: none;

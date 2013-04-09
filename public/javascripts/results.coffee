@@ -1,3 +1,6 @@
+$(function() {
+})
+
 $ ->
     socket = io.connect()
 
