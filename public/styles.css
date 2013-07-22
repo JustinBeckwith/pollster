@@ -7,7 +7,7 @@
   height: 70px;
   border-width: 1px;
   border-style: solid;
-  border-color: #3ca5ec;
+  border-color: #ff0000;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
@@ -15,7 +15,7 @@
 .progressOpt {
   position: relative;
   float: left;
-  background-color: #3ca5ec;
+  background-color: #ff0000;
   height: 70px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
