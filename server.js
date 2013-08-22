@@ -21,7 +21,6 @@ var express = require('express')
 **/
 nconf.env().file({ file: 'settings.json' });
 
-
 /**
 * EVERYAUTH AUTHENTICATION
 * -------------------------------------------------------------------------------------------------

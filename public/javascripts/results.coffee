@@ -6,4 +6,3 @@ $ ->
             console.log $('#ot' + opt.name)
             $('#ot' + opt.name).text opt.text + ' (' + opt.count + '/' + question.totalVotes + ')'
             $('#prog' + opt.name).css 'width', (opt.count/question.totalVotes*100) + '%'
-            alert 'a vote!'
