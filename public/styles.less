@@ -4,17 +4,26 @@
     }
 }
 
+.roundedCorners(@rad: 5px) {
+    -webkit-border-radius: @rad;
+    -moz-border-radius: @rad;
+    border-radius: @rad;
+}
+
+@boxColor: #0094ff;
+
 .progressFull {
     height: 70px;
     border-width: 1px;
     border-style: solid;
-    border-color: #0094ff;
+    border-color: @boxColor;
+    .roundedCorners(10px);
 }
 
 .progressOpt {
     position: relative;
     float: left;
-    background-color: #0094ff;
+    background-color: @boxColor;
     height: 70px;
 }
 

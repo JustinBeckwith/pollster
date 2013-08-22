@@ -27,6 +27,8 @@ nconf.env().file({ file: 'settings.json' });
 * allows users to log in and register using OAuth services
 **/
 
+
+
 everyauth.debug = true;
 
 // Configure local password auth

@@ -1,6 +1,6 @@
 $ ->
     socket = io.connect()
-
+    
     socket.on 'update', (question) ->
         for opt in question.options
             console.log $('#ot' + opt.name)

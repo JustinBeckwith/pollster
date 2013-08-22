@@ -8,6 +8,9 @@
   border-width: 1px;
   border-style: solid;
   border-color: #0094ff;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
 }
 .progressOpt {
   position: relative;
