@@ -1,4 +1,6 @@
 # pollster
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/JustinBeckwith/pollster.svg)](https://greenkeeper.io/)
 The pollster is a happy little crowd polling application built on node.js.  It's great for polling an audience during a live talk - it was built with the WebMatrix.
 
 ## Running the site
